@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <?php echo $this->headTitle('ZF2 ' . $this->translate('Skeleton Application'))->setSeparator(' - ')->setAutoEscape(false) ?>
+        <?php echo $this->headTitle('YourList! ' . $this->translate('Dashboard | Home'))->setSeparator(' - ')->setAutoEscape(false) ?>
 
         <?php
         echo $this->headMeta()
@@ -37,50 +37,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="dashboard.html" class="brand"><i class="icon-leaf">Clean Dashboard</i></a>
+                    <a href="dashboard.html" class="brand"><i class="icon-leaf">YourList! Dashboard</i></a>
                     <div id="app-nav-top-bar" class="nav-collapse">
-                        <ul class="nav">
-
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">TRY ME!
-                                    <b class="caret hidden-phone"></b>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="dashboard.html">Dashboard</a>
-                                    </li>
-                                    <li>
-                                        <a href="form.html">Form</a>
-                                    </li>
-                                    <li>
-                                        <a href="custom-view.html">Custom View</a>
-                                    </li>
-                                    <li>
-                                        <a href="login.html">Login Page</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">CHANGE NAV BAR
-                                    <b class="caret hidden-phone"></b>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="demo-horizontal-nav.html">Horizontal</a>
-                                    </li>
-                                    <li>
-                                        <a href="demo-horizontal-fixed-nav.html">Horizontal Fixed</a>
-                                    </li>
-                                    <li>
-                                        <a href="demo-vertical-nav.html">Vertical</a>
-                                    </li>
-                                    <li>
-                                        <a href="demo-vertical-fixed-nav.html">Vertical Fixed</a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                        </ul>
                         <ul class="nav pull-right">
                             <li>
                                 <a href="login.html">Logout</a>
@@ -137,36 +95,6 @@
                     </div>
                 </div>
 
-
-<!--<section class="nav nav-page">
-<div class="container">
-<div class="row">
-<div class="span7">
-    <header class="page-header">
-        <h3>Dashboard Demo<br/>
-            <small>Additional Bootstrap Components</small>
-        </h3>
-    </header>
-</div>
-<div class="page-nav-options">
-    <div class="span9">
-        <ul class="nav nav-pills">
-            <li>
-                <a href="#"><i class="icon-home icon-large"></i></a>
-            </li>
-        </ul>
-        <ul class="nav nav-tabs">
-            <li class="active">
-                <a href="#"><i class="icon-home"></i>Home</a>
-            </li>
-            <li><a href="#">Maps</a></li>
-            <li><a href="#">Admin</a></li>
-        </ul>
-    </div>
-</div>
-</div>
-</div>-
-</section>-->
                 <?php echo $this->content; ?>
 
             </div>
