@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Zend Framework (http://framework.zend.com/)
  *
@@ -12,16 +13,16 @@ namespace Application\Controller;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 
-class IndexController extends AbstractActionController
-{
-    public function indexAction()
+class AuthController extends AbstractActionController {
+
+    public function loginAction()
     {
         return new ViewModel();
     }
 
-    public function testAction()
+    public function logoutAction()
     {
-        echo "alien";
+        
     }
 
 }
